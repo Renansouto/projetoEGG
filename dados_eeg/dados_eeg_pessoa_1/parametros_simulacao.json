@@ -1,0 +1,1 @@
+{"frequencia_amostragem": 256.0, "tempo_simulacao": 10.0, "eletrodos": ["Fp1", "Fp2", "F7", "F3", "Fz", "F4", "F8", "FC5", "FC1", "FC2", "FC6"], "tipos_onda": {"Fp1": "delta", "Fp2": "theta", "F7": "alpha", "F3": "beta", "Fz": "gamma", "F4": "delta", "F8": "theta", "FC5": "alpha", "FC1": "beta", "FC2": "gamma", "FC6": "delta"}}
