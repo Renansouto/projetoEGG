@@ -27,3 +27,40 @@ Este projeto visa simular sinais de eletroencefalograma (EEG) e realizar uma an�
 4. **Estrutura de Pastas para Salvamento:**
     - Dados organizados em subpastas específicas (sinais, espectrogramas, histogramas, estatísticas).
     - Pasta principal nomeada conforme a pessoa (e.g., "dados_eeg_pessoa_1", "dados_eeg_pessoa_2").
+
+## Estrutura do Projeto
+
+projetoEGG/
+│
+├── dados_eeg_pessoa_X/ # Pasta principal para cada pessoa
+│   ├── sinais/ # Sinais de EEG gerados
+│   ├── espectrogramas/ # Espectrogramas gerados
+│   ├── histogramas/ # Histogramas gerados
+│   ├── estatisticas/ # Estatísticas descritivas
+│   └── raw_data/ # Dados brutos dos sinais
+│
+├── Electrode-montage-We-used-a-standard-extension-of-the-international-10-20-system-to.png
+├── geração_sinal.ipynb # Jupyter notebook com o código de simulação e análise
+└── README.md # Descrição do projeto
+
+## Pré-requisitos
+
+- Python 3.11
+- Bibliotecas necessárias:
+    - numpy
+    - mne
+    - ipywidgets
+    - plotly
+    - matplotlib
+    - pandas
+    - scipy
+
+## Instalação
+
+1. Clone o repositório:
+
+```sh
+git clone https://github.com/Renansouto/projetoEGG.git
+cd projetoEGG
+
+
